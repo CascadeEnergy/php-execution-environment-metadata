@@ -2,6 +2,10 @@
 
 namespace CascadeEnergy\ExecutionEnvironment\MetaData;
 
+/**
+ * This provider accepts any number of other providers via the `addIdentifierProvider` method and returns a string
+ * which concatenates the results of the other providers (separated by the `:` character)
+ */
 class CompositeIdentifier implements IdentifierProviderInterface
 {
     /** @var IdentifierProviderInterface[] */

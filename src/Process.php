@@ -2,6 +2,9 @@
 
 namespace CascadeEnergy\ExecutionEnvironment\MetaData;
 
+/**
+ * This provider returns the OS-level process ID
+ */
 class Process implements IdentifierProviderInterface
 {
     /**

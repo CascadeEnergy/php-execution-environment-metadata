@@ -4,6 +4,9 @@ namespace CascadeEnergy\ExecutionEnvironment\MetaData;
 
 use GuzzleHttp\Client;
 
+/**
+ * This identifier provider queries EC2 instance metadata and returns the `instanceId`
+ */
 class AwsInstance implements IdentifierProviderInterface
 {
     private $guzzleClient;

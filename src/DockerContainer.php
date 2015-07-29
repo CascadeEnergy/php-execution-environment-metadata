@@ -4,6 +4,10 @@ namespace CascadeEnergy\ExecutionEnvironment\MetaData;
 
 use Symfony\Component\Filesystem\Filesystem;
 
+/**
+ * This identifier provider checks for the existence of a container ID file inside a Docker container and
+ * returns the contents of that file if it exists
+ */
 class DockerContainer implements IdentifierProviderInterface
 {
     const DEFAULT_CONTAINER_ID_PATH = '/tmp/container.id';

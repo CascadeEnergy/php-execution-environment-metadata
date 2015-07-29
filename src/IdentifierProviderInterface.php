@@ -2,6 +2,9 @@
 
 namespace CascadeEnergy\ExecutionEnvironment\MetaData;
 
+/**
+ * The interface which must be implemented by all classes that provide execution environment identifiers
+ */
 interface IdentifierProviderInterface
 {
     /**
