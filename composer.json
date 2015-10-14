@@ -1,5 +1,5 @@
 {
-  "name": "CascadeEnergy/php-execution-environment-metadata",
+  "name": "cascade-energy/php-execution-environment-metadata",
   "description": "PHP objects which provide metadata about the current execution environment",
   "minimum-stability": "stable",
   "license": "MIT",
